@@ -1,0 +1,50 @@
+@media (min-width: 992px) {
+  header {
+    display: inline-flex;
+  }
+
+  nav {
+    height: auto;
+    display: block;
+    background: none;
+  }
+
+  nav span {
+    background-image: url('../images/black_arrow.png');
+  }
+
+  .nav_container {
+    display: flex;
+    float: right;
+    padding: 10px 0 0 0;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 65px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .title {
+    font-size: 16px;
+    color: #000;
+  }
+
+  .right_content {
+    width: 50%;
+    display: flex;
+  }
+
+  .right_content img {
+    display: block;
+  }
+
+  .drop_down_content {
+    margin-right: 25px;
+  }
+
+  
+}
