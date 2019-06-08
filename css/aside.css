@@ -2,31 +2,50 @@
   width: 60%;
   margin: 0 auto;
   margin-top: 30px;
+  display: -webkit-box;
 }
 
 .aside_content {
-  float: left;
-  border: 1px solid #000;
-  padding: 10px;
+  height: 200px;
+  padding: 30px 30px 30px 30px;
+  background-color: #66D7D1;
 }
 
 .aside_content ul {
   padding: 0;
 }
 
+.aside_content ul li {
+  padding-bottom: 15px;
+}
+
+.fruit li {
+  padding-bottom: 7px;
+}
+
 .fruit_right_content {
-  display: flex;
   padding-left: 40px;
+}
+
+.fruit_right_content p {
+  max-width: 700px;
 }
 
 .fruit {
   width: 250px;
 }
 
-h4 {
-  margin-left: 20px;
+.berries_content, .melons_content {
+  float: left;
 }
 
-.other_content {
-  margin-left: 200px;
+h4 {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+h3 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  cursor: default;
 }
