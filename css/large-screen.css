@@ -46,5 +46,47 @@
     margin-right: 25px;
   }
 
-  
+  .container {
+    width: 960px;
+    position: unset;
+  }
+
+  .aside_content {
+    width: unset;
+    position: unset;
+    padding: 30px 30px 30px 30px;
+  }
+
+  .fruit_right_content {
+    margin-left: 40px;
+    text-align: left;
+  }
+
+  .fruit_right_content p {
+    padding-bottom: 25px;
+  }
+
+  .fruit {
+    width: 260px;
+  }
+
+  .berries_content {
+    padding-bottom: 35px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

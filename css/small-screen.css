@@ -108,9 +108,34 @@
     display: none;
   }
 
-  
+  .container {
+    width: 100%;
+  }
 
+  .aside_content {
+    position: absolute;
+    bottom: -200px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
 
+  .fruit_right_content {
+    padding: 0;
+    text-align: center;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  .fruit {
+    width: 100%;
+  }
+
+  .fruit ul {
+    padding: 0;
+  }
 
 
 
